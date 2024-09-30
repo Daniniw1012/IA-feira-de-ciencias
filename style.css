@@ -74,4 +74,12 @@ section {
         width: 300;
         height: 100;
     }
+
+    #logo {
+        width: 250px;
+    }
+
+    .reportagemCards {
+        margin-top: 10px;
+    }
 }
