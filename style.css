@@ -59,3 +59,12 @@ section {
 .reportagens {
     text-align: left;
 }
+
+/* configurações para celular */
+
+/* não mostrar o vídeo */
+@media (max-width: 928px) {
+    #video {
+        display: none;
+    }
+}
