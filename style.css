@@ -60,11 +60,18 @@ section {
     text-align: left;
 }
 
+#video {
+    width: 1500;
+    height: 600;
+}
+
 /* configurações para celular */
 
 /* não mostrar o vídeo */
 @media (max-width: 928px) {
     #video {
         display: none;
+        width: 300;
+        height: 100;
     }
 }
