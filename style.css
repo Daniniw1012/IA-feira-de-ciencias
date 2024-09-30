@@ -1,16 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+
+
 #fundo {
     background-color: black;
 }
 
 .navbar-properties {
     background-color: black;
-    color: yellow;
+    color: aliceblue;
 }
 
 .navbar-properties a {
+    color: aliceblue;
+}
+
+.navbar-properties a:hover {
     color: yellow;
 }
 
 #logo {
     width: 300px;
+}
+
+.paragrafo {
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    font-size: large;
+    line-height: 1.5;
+}
+
+.lista_ordenada li {
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+strong {
+    color: turquoise;
+}
+
+
+.titulo {
+    color: turquoise;
+    font-family: "SUSE", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reportagens {
+    text-align: left;
 }
